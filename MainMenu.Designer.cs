@@ -1,6 +1,6 @@
 ﻿namespace CustomizedDriver
 {
-    partial class Form1
+    partial class MainMenu
     {
         /// <summary>
         /// 設計工具所需的變數。

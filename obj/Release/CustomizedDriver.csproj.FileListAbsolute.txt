@@ -8,3 +8,12 @@ C:\Users\Robin\Desktop\CustomizedDriver\obj\Release\CustomizedDriver.csproj.Gene
 C:\Users\Robin\Desktop\CustomizedDriver\obj\Release\CustomizedDriver.csproj.CoreCompileInputs.cache
 C:\Users\Robin\Desktop\CustomizedDriver\obj\Release\CustomizedDriver.exe
 C:\Users\Robin\Desktop\CustomizedDriver\obj\Release\CustomizedDriver.pdb
+C:\Users\robin\OneDrive\桌面\CustomizedDriver\bin\Release\CustomizedDriver.exe.config
+C:\Users\robin\OneDrive\桌面\CustomizedDriver\bin\Release\CustomizedDriver.exe
+C:\Users\robin\OneDrive\桌面\CustomizedDriver\bin\Release\CustomizedDriver.pdb
+C:\Users\robin\OneDrive\桌面\CustomizedDriver\obj\Release\CustomizedDriver.csprojAssemblyReference.cache
+C:\Users\robin\OneDrive\桌面\CustomizedDriver\obj\Release\CustomizedDriver.MainMenu.resources
+C:\Users\robin\OneDrive\桌面\CustomizedDriver\obj\Release\CustomizedDriver.Properties.Resources.resources
+C:\Users\robin\OneDrive\桌面\CustomizedDriver\obj\Release\CustomizedDriver.csproj.GenerateResource.cache
+C:\Users\robin\OneDrive\桌面\CustomizedDriver\obj\Release\CustomizedDriver.exe
+C:\Users\robin\OneDrive\桌面\CustomizedDriver\obj\Release\CustomizedDriver.pdb
