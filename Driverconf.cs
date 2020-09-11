@@ -62,8 +62,7 @@ namespace CustomizedDriver
         public void XL600Dam()
         {
             ElmoApplicationStudioII = true;
-            Mitsubishi = true;
-            ElmoComposer = true;
+            Mitsubishi = true;            
             MoonsSTConfigurator = true;
             CCD_T_GigeCam = true;
             Keyence3000Series = true;
@@ -73,7 +72,6 @@ namespace CustomizedDriver
         {
             ElmoApplicationStudioII = true;
             Mitsubishi = true;
-            Copley = true;
             MoonsSTConfigurator = true;
             CCD_T_GigeCam = true;
             Keyence3000Series = true;

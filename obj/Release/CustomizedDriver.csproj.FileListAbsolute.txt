@@ -17,3 +17,13 @@ C:\Users\robin\OneDrive\桌面\CustomizedDriver\obj\Release\CustomizedDriver.Pro
 C:\Users\robin\OneDrive\桌面\CustomizedDriver\obj\Release\CustomizedDriver.csproj.GenerateResource.cache
 C:\Users\robin\OneDrive\桌面\CustomizedDriver\obj\Release\CustomizedDriver.exe
 C:\Users\robin\OneDrive\桌面\CustomizedDriver\obj\Release\CustomizedDriver.pdb
+D:\Users\User\Documents\GitHub\CustomizedDriver\bin\Release\CustomizedDriver.exe.config
+D:\Users\User\Documents\GitHub\CustomizedDriver\bin\Release\CustomizedDriver.exe
+D:\Users\User\Documents\GitHub\CustomizedDriver\bin\Release\CustomizedDriver.pdb
+D:\Users\User\Documents\GitHub\CustomizedDriver\obj\Release\CustomizedDriver.csprojAssemblyReference.cache
+D:\Users\User\Documents\GitHub\CustomizedDriver\obj\Release\CustomizedDriver.MainMenu.resources
+D:\Users\User\Documents\GitHub\CustomizedDriver\obj\Release\CustomizedDriver.Properties.Resources.resources
+D:\Users\User\Documents\GitHub\CustomizedDriver\obj\Release\CustomizedDriver.csproj.GenerateResource.cache
+D:\Users\User\Documents\GitHub\CustomizedDriver\obj\Release\CustomizedDriver.csproj.CoreCompileInputs.cache
+D:\Users\User\Documents\GitHub\CustomizedDriver\obj\Release\CustomizedDriver.exe
+D:\Users\User\Documents\GitHub\CustomizedDriver\obj\Release\CustomizedDriver.pdb
