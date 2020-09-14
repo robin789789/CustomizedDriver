@@ -81,7 +81,7 @@ namespace CustomizedDriver
         {
             string []result=new string [12];
             if (dri.Mitsubishi)
-                result[0] = "start  Mitsubishi/SN.txt"+"\r\n"+"start /wait Mitsubishi/MitsubishiEN/setup.exe"+"\r\n"+ "start /wait Mitsubishi/MRConfiguratorSC/setup.exe";
+                result[0] = "start  Mitsubishi/SN.jpg"+"\r\n"+"start /wait Mitsubishi/MitsubishiEN/setup.exe"+"\r\n"+ "start /wait Mitsubishi/MRConfiguratorSC/setup.exe";
             else
                 result[0] = "";
             if (dri.ElmoComposer)

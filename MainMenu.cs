@@ -19,7 +19,7 @@ namespace CustomizedDriver
         private void Form1_Load(object sender, EventArgs e)
         {
            // MessageBox.Show("Check the Items which you need to install.");
-            CenterToScreen();
+            CenterToScreen();           
         }
 
         private void DriveSoftwareListCheck()
@@ -59,32 +59,34 @@ namespace CustomizedDriver
         private void DeviceType_SelectedIndexChanged(object sender, EventArgs e)
         {
             Drivers drivers = new Drivers();
-            string N = comboBox1.SelectedItem.ToString();
-            switch (N)
-            {
-                case "A Series":
-                    drivers.ASeries();
-                    break;
-                case "B Series":
-                    drivers.BSeries();
-                    break;
-                case "E Series":
-                    drivers.ESeries();
-                    break;
-                case "XL600":
-                    drivers.XL600();
-                    break;
-                case "XL600_DAM":
-                    drivers.XL600Dam();
-                    break;
-                case "XL600_FILL":
-                    drivers.XL600Fill();
-                    break;
-                default:
-                    break;
-            }
-            FreshComboBox(drivers);
-            MessageBox.Show("Choose "+N+" setting done!");
+            
+                string N = comboBox1.SelectedItem.ToString();
+                switch (N)
+                {
+                    case "A Series":
+                        drivers.ASeries();
+                        break;
+                    case "B Series":
+                        drivers.BSeries();
+                        break;
+                    case "E Series":
+                        drivers.ESeries();
+                        break;
+                    case "XL600":
+                        drivers.XL600();
+                        break;
+                    case "XL600_DAM":
+                        drivers.XL600Dam();
+                        break;
+                    case "XL600_FILL":
+                        drivers.XL600Fill();
+                        break;
+                    default:
+                        break;
+                }
+                FreshComboBox(drivers);
+                MessageBox.Show("Choose " + N + " setting done!");
+            
         }
 
         private void FreshComboBox(Drivers drivers)
