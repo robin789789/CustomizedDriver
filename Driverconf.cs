@@ -89,7 +89,7 @@ namespace CustomizedDriver
             else
                 result[1] = "";
             if (dri.ElmoApplicationStudioII)
-                result[2] = "start /wait Elmo_Application_Studio_II/ElmoApplicationStudio.exe";
+                result[2] = "c:"+"\r\n"+ "cd /Program Files (x86)/SSI_CustomizedDirver_Package" + "\r\n"+"start /wait Elmo_Application_Studio_II/ElmoApplicationStudio.exe";
             else
                 result[2] = "";
             if (dri.MoonsSTConfigurator)
