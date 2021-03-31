@@ -1,14 +1,14 @@
 ﻿using System.Collections.Generic;
 
-
 namespace CustomizedDriver
 {
-    class Driverconf
+    internal class Driverconf
     {
         public string RobotType { get; set; }
         public List<Drivers> Drivers { get; set; }
     }
-    class Drivers
+
+    internal class Drivers
     {
         public bool Mitsubishi { get; set; }
         public bool ElmoComposer { get; set; }
@@ -22,6 +22,7 @@ namespace CustomizedDriver
         public bool Panaterm { get; set; }
         public bool CCD_T_GigeCam { get; set; }
         public bool CCD_T_USB { get; set; }
+
         public Drivers()
         {
             ElmoApplicationStudioII = false;
@@ -37,37 +38,43 @@ namespace CustomizedDriver
             CCD_T_GigeCam = false;
             CCD_T_USB = false;
         }
+
         public void ASeries()
         {
             Mitsubishi = true;
             CCD_T_USB = true;
         }
+
         public void BSeries()
         {
             CCD_T_USB = true;
         }
+
         public void ESeries()
         {
             CCD_T_USB = true;
         }
+
         public void XL600()
         {
-            ElmoApplicationStudioII =true;
+            ElmoApplicationStudioII = true;
             Mitsubishi = true;
             Copley = true;
             MoonsSTConfigurator = true;
             CCD_T_GigeCam = true;
             Keyence3000Series = true;
         }
+
         public void XL600Dam()
         {
             ElmoApplicationStudioII = true;
-            Mitsubishi = true;            
+            Mitsubishi = true;
             MoonsSTConfigurator = true;
             CCD_T_GigeCam = true;
             Keyence3000Series = true;
             MettlerToledo = true;
         }
+
         public void XL600Fill()
         {
             ElmoApplicationStudioII = true;
@@ -77,19 +84,20 @@ namespace CustomizedDriver
             Keyence3000Series = true;
             MettlerToledo = true;
         }
-        public string []FinalList(Drivers dri)
+
+        public string[] FinalList(Drivers dri)
         {
-            string []result=new string [12];
+            string[] result = new string[12];
             if (dri.Mitsubishi)
-                result[0] = "start  Mitsubishi/SN.jpg"+"\r\n"+"start /wait Mitsubishi/MitsubishiEN/setup.exe"+"\r\n"+ "start /wait Mitsubishi/MRConfiguratorSC/setup.exe";
+                result[0] = "start  Mitsubishi/SN.jpg" + "\r\n" + "start /wait Mitsubishi/MitsubishiEN/setup.exe" + "\r\n" + "start /wait Mitsubishi/MRConfiguratorSC/setup.exe";
             else
                 result[0] = "";
             if (dri.ElmoComposer)
-                result[1] = "start /wait ElmoComposer/ElmoComposerSetup.exe";
+                result[1] = "start /wait %~dp0/ElmoComposer\\ElmoComposerSetup.exe";
             else
                 result[1] = "";
             if (dri.ElmoApplicationStudioII)
-                result[2] = "c:"+"\r\n"+ "cd /Program Files (x86)/SSI_CustomizedDirver_Package" + "\r\n"+"start /wait Elmo_Application_Studio_II/ElmoApplicationStudio.exe";
+                result[2] = "start /wait Elmo_Application_Studio_II/ElmoApplicationStudio.exe";
             else
                 result[2] = "";
             if (dri.MoonsSTConfigurator)
@@ -97,7 +105,7 @@ namespace CustomizedDriver
             else
                 result[3] = "";
             if (dri.Panaterm)
-                result[4] = "start /wait Panaterm/PANATERM 6.0-64BIT.exe"+"\r\n"+ "start PanatermToChinese/readme.txt";
+                result[4] = "start /wait Panaterm/PANATERM 6.0-64BIT.exe" + "\r\n" + "start PanatermToChinese/readme.txt";
             else
                 result[4] = "";
             if (dri.Copley)
@@ -129,7 +137,7 @@ namespace CustomizedDriver
             else
                 result[11] = "";
 
-            return result;        
+            return result;
         }
     }
 }

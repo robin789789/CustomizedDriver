@@ -55,10 +55,10 @@
             "MoonsSTConfigurator",
             "Panaterm",
             "Copley"});
-            this.checkedListBox1.Location = new System.Drawing.Point(6, 30);
-            this.checkedListBox1.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.checkedListBox1.Location = new System.Drawing.Point(4, 20);
+            this.checkedListBox1.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.checkedListBox1.Name = "checkedListBox1";
-            this.checkedListBox1.Size = new System.Drawing.Size(296, 212);
+            this.checkedListBox1.Size = new System.Drawing.Size(199, 136);
             this.checkedListBox1.TabIndex = 0;
             // 
             // button1
@@ -70,9 +70,10 @@
             this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button1.Font = new System.Drawing.Font("微軟正黑體", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.button1.ForeColor = System.Drawing.Color.Goldenrod;
-            this.button1.Location = new System.Drawing.Point(620, 197);
+            this.button1.Location = new System.Drawing.Point(413, 131);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(125, 54);
+            this.button1.Size = new System.Drawing.Size(83, 36);
             this.button1.TabIndex = 1;
             this.button1.Text = "Confirm";
             this.button1.UseVisualStyleBackColor = false;
@@ -91,9 +92,10 @@
             "MettlerToledo",
             "CCD_T_GigeCam",
             "CCD_T_USB"});
-            this.checkedListBox2.Location = new System.Drawing.Point(0, 29);
+            this.checkedListBox2.Location = new System.Drawing.Point(0, 19);
+            this.checkedListBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkedListBox2.Name = "checkedListBox2";
-            this.checkedListBox2.Size = new System.Drawing.Size(282, 212);
+            this.checkedListBox2.Size = new System.Drawing.Size(189, 136);
             this.checkedListBox2.TabIndex = 2;
             // 
             // groupBox1
@@ -101,9 +103,11 @@
             this.groupBox1.Controls.Add(this.checkedListBox1);
             this.groupBox1.Font = new System.Drawing.Font("微軟正黑體", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.groupBox1.ForeColor = System.Drawing.SystemColors.ControlLight;
-            this.groupBox1.Location = new System.Drawing.Point(12, 70);
+            this.groupBox1.Location = new System.Drawing.Point(8, 47);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox1.Name = "groupBox1";
-            this.groupBox1.Size = new System.Drawing.Size(308, 265);
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(205, 177);
             this.groupBox1.TabIndex = 3;
             this.groupBox1.TabStop = false;
             this.groupBox1.Text = "Drive Software";
@@ -114,9 +118,11 @@
             this.groupBox2.Controls.Add(this.checkedListBox2);
             this.groupBox2.Font = new System.Drawing.Font("微軟正黑體", 10.8F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.groupBox2.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.groupBox2.Location = new System.Drawing.Point(326, 70);
+            this.groupBox2.Location = new System.Drawing.Point(217, 47);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.groupBox2.Name = "groupBox2";
-            this.groupBox2.Size = new System.Drawing.Size(288, 264);
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Size = new System.Drawing.Size(192, 176);
             this.groupBox2.TabIndex = 4;
             this.groupBox2.TabStop = false;
             this.groupBox2.Text = "Device Driver";
@@ -134,9 +140,10 @@
             "XL600",
             "XL600_DAM",
             "XL600_FILL"});
-            this.comboBox1.Location = new System.Drawing.Point(18, 22);
+            this.comboBox1.Location = new System.Drawing.Point(12, 15);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.comboBox1.Name = "comboBox1";
-            this.comboBox1.Size = new System.Drawing.Size(291, 31);
+            this.comboBox1.Size = new System.Drawing.Size(195, 26);
             this.comboBox1.TabIndex = 5;
             this.comboBox1.Text = "Select Robot";
             this.comboBox1.SelectedIndexChanged += new System.EventHandler(this.DeviceType_SelectedIndexChanged);
@@ -148,9 +155,10 @@
             this.button2.FlatAppearance.MouseOverBackColor = System.Drawing.Color.Red;
             this.button2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.button2.Font = new System.Drawing.Font("微軟正黑體", 10.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button2.Location = new System.Drawing.Point(700, 3);
+            this.button2.Location = new System.Drawing.Point(467, 2);
+            this.button2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(40, 40);
+            this.button2.Size = new System.Drawing.Size(27, 27);
             this.button2.TabIndex = 6;
             this.button2.Text = "X";
             this.button2.UseVisualStyleBackColor = false;
@@ -163,20 +171,23 @@
             this.label1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.label1.Font = new System.Drawing.Font("微軟正黑體", 19.8F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label1.ForeColor = System.Drawing.Color.Black;
-            this.label1.Location = new System.Drawing.Point(535, 18);
+            this.label1.Location = new System.Drawing.Point(357, 12);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(85, 45);
+            this.label1.Size = new System.Drawing.Size(68, 37);
             this.label1.TabIndex = 7;
             this.label1.Text = "hub";
+            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // label2
             // 
             this.label2.AutoSize = true;
             this.label2.Font = new System.Drawing.Font("微軟正黑體", 10.2F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(136)));
             this.label2.ForeColor = System.Drawing.Color.Goldenrod;
-            this.label2.Location = new System.Drawing.Point(657, 312);
+            this.label2.Location = new System.Drawing.Point(438, 208);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(67, 22);
+            this.label2.Size = new System.Drawing.Size(56, 18);
             this.label2.TabIndex = 8;
             this.label2.Text = "Ver:1.0";
             // 
@@ -186,18 +197,19 @@
             this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
             this.label3.Font = new System.Drawing.Font("微軟正黑體", 19.8F);
             this.label3.ForeColor = System.Drawing.SystemColors.ControlLightLight;
-            this.label3.Location = new System.Drawing.Point(401, 19);
+            this.label3.Location = new System.Drawing.Point(267, 13);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(112, 42);
+            this.label3.Size = new System.Drawing.Size(91, 34);
             this.label3.TabIndex = 9;
             this.label3.Text = "Driver";
             // 
-            // Form1
+            // MainMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(9F, 18F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(40)))), ((int)(((byte)(40)))));
-            this.ClientSize = new System.Drawing.Size(749, 344);
+            this.ClientSize = new System.Drawing.Size(499, 229);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -207,10 +219,10 @@
             this.Controls.Add(this.groupBox1);
             this.Controls.Add(this.button1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
-            this.Margin = new System.Windows.Forms.Padding(3, 4, 3, 4);
+            this.Margin = new System.Windows.Forms.Padding(2, 3, 2, 3);
             this.MaximizeBox = false;
             this.MinimizeBox = false;
-            this.Name = "Form1";
+            this.Name = "MainMenu";
             this.Text = "SelectToInstall";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.groupBox1.ResumeLayout(false);
